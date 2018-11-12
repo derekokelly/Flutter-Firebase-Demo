@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "73218377085",
+    "firebase_url": "https://login-demo-8ed58.firebaseio.com",
+    "project_id": "login-demo-8ed58",
+    "storage_bucket": "login-demo-8ed58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73218377085:android:eb0985994aebc0c6",
+        "android_client_info": {
+          "package_name": "ie.nuigalway.dokelly.logindemofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73218377085-3vf7d6bg03vciqf4kpoo87l9nsbnon93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeXDDIIq60omw9e_3BBMNyxDAdZkKVZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
