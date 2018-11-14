@@ -18,36 +18,42 @@ class _LoginPageState extends State<LoginPage> {
   String _email;
   String _password;
   FormType _formType = FormType.login;
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
 
   final formKey = new GlobalKey<FormState>();
+  final GlobalKey<ScaffoldState> _scaffoldstate = new GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        appBar: new AppBar(
-          title: new Text("Flutter login demo"),
-        ),
-        body: new Container(
-          padding: EdgeInsets.all(16.0),
-          child: new Form(
-            key: formKey,
-            child: new Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: buildInputs() + buildSubmitButtons(),
-            ),
+      key: _scaffoldstate,
+      appBar: new AppBar(
+        title: new Text("Flutter login demo"),
+      ),
+      body: new Container(
+        padding: EdgeInsets.all(16.0),
+        child: new Form(
+          key: formKey,
+          child: new Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: buildInputs() + buildSubmitButtons(),
           ),
-        )
+        ),
+      ),
     );
   }
 
   List<Widget> buildInputs() {
     return [
       new TextFormField(
+        controller: emailController,
         decoration: new InputDecoration( labelText: "Email"),
         validator: (value) => value.isEmpty ? "Email can\'t be empty" : null,
         onSaved: (value) => _email = value,
       ),
       new TextFormField(
+        controller: passwordController,
         decoration: new InputDecoration( labelText: "Password",),
         obscureText: true,
         validator: (value) => value.isEmpty ? "Password can\'t be empty" : null,
@@ -97,13 +103,17 @@ class _LoginPageState extends State<LoginPage> {
         if (_formType == FormType.login) {
           FirebaseUser user = await FirebaseAuth.instance
               .signInWithEmailAndPassword(email: _email, password: _password);
-          print("Signed in: ${user.uid}");
+          _scaffoldstate.currentState.showSnackBar(new SnackBar(content: new Text("Successfully logged in.")));
+          emailController.clear();
+          passwordController.clear();
         } else {
           FirebaseUser user = await FirebaseAuth.instance.createUserWithEmailAndPassword(email: _email, password: _password);
-          print("Registered user: ${user.uid}");
+          _scaffoldstate.currentState.showSnackBar(new SnackBar(content: new Text("Successfully registered.")));
+          emailController.clear();
+          passwordController.clear();
         }
       } catch (error) {
-        print("Error: $error");
+        _scaffoldstate.currentState.showSnackBar(new SnackBar(content: new Text("$error")));
       }
     }
   }
