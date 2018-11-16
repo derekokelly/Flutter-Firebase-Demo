@@ -3,8 +3,10 @@ import 'auth.dart';
 
 class LoginPage extends StatefulWidget {
 
+  LoginPage({this.auth, this.onSingedIn});
+
   final BaseAuth auth;
-  LoginPage({this.auth});
+  final VoidCallback onSingedIn;
 
   @override
   State<StatefulWidget> createState() => new _LoginPageState();
@@ -116,6 +118,7 @@ class _LoginPageState extends State<LoginPage> {
           emailController.clear();
           passwordController.clear();
         }
+        widget.onSingedIn();
       } catch (error) {
         _scaffoldstate.currentState.showSnackBar(new SnackBar(content: new Text("$error")));
       }
