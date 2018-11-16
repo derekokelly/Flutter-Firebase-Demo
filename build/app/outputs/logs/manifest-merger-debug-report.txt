@@ -110,7 +110,7 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Derek\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Derek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0386c07380d59dbceefaacd17db81781\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Derek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0386c07380d59dbceefaacd17db81781\AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from C:\Users\Derek\Documents\Flutter Projects\Flutter-Firebase-Demo\android\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from C:\Users\Derek\Documents\Flutter Projects\Flutter-Firebase-Demo\android\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
 		ADDED from C:\Users\Derek\Documents\Flutter Projects\Flutter-Firebase-Demo\android\app\src\main\AndroidManifest.xml:18:9-43
 	android:name

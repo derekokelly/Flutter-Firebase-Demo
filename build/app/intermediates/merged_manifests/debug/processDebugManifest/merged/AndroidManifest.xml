@@ -29,7 +29,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="login_demo_firebase" >
+        android:label="Login Demo" >
         <activity
             android:name="ie.nuigalway.dokelly.logindemofirebase.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
