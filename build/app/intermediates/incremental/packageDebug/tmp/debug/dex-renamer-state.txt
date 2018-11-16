@@ -1,4 +1,4 @@
-#Wed Nov 14 20:46:02 GMT 2018
-base.0=C\:\\Users\\derek\\OneDrive\\Documents\\FlutterProjects\\login_demo_firebase\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Nov 16 16:11:33 GMT 2018
+base.0=C\:\\Users\\Derek\\Documents\\Flutter Projects\\Flutter-Firebase-Demo\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

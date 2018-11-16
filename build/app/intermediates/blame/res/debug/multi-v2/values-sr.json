@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\derek\\OneDrive\\Documents\\FlutterProjects\\login_demo_firebase\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
+            "outputFile": "C:\\Users\\Derek\\Documents\\Flutter Projects\\Flutter-Firebase-Demo\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\141a28be1bed8606a4cc91d074833766\\res\\values-sr\\values.xml",
+                    "source": "C:\\Users\\Derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\9d883a91feecd76577cc8b1cedadba8c\\res\\values-sr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\21df0ebf201415e316fa3a82c14c1f31\\res\\values-sr\\values.xml",
+                    "source": "C:\\Users\\Derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\bfd412f674a29bd401c4f34ad2e2ea1b\\res\\values-sr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\derek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3db5800ab4c3921c378f758fa9acc98a\\res\\values-sr\\values-sr.xml",
+                    "source": "C:\\Users\\Derek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\59463aea05f2cd75716e410f93896ecc\\res\\values-sr\\values-sr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

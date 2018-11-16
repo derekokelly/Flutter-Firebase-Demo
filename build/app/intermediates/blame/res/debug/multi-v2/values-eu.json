@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\derek\\OneDrive\\Documents\\FlutterProjects\\login_demo_firebase\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
+            "outputFile": "C:\\Users\\Derek\\Documents\\Flutter Projects\\Flutter-Firebase-Demo\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\141a28be1bed8606a4cc91d074833766\\res\\values-eu\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "200",
-                        "endOffsets": "447"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1282",
-                        "endColumns": "200",
-                        "endOffsets": "1478"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\21df0ebf201415e316fa3a82c14c1f31\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\Derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\bfd412f674a29bd401c4f34ad2e2ea1b\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\derek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3db5800ab4c3921c378f758fa9acc98a\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\Derek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\9d883a91feecd76577cc8b1cedadba8c\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "200",
+                        "endOffsets": "447"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1282",
+                        "endColumns": "200",
+                        "endOffsets": "1478"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Derek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\59463aea05f2cd75716e410f93896ecc\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
